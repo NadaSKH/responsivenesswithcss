@@ -1,0 +1,20 @@
+{
+  "name": "tailwindpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.0.4"
+  },
+  "devDependencies": {
+    "stylelint": "^13.12.0",
+    "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-standard": "^21.0.0"
+  }
+}
